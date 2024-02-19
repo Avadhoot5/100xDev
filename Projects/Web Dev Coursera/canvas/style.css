@@ -1,0 +1,29 @@
+canvas {
+    width: 200pt;
+    height:100pt;
+    margin:10px;
+    border: 1px solid black;
+}
+ 
+input{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* .blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+} */
+
+/* clearing the colours */
+/* .clear {
+    color: white;
+    background-color: white;
+} */

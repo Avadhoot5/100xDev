@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>GreenScreen</title>
+</head>
+<body>
+<h1>Green Screen</h1>
+<hr>
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+<br>
+Foreground:<input type="file" name="file" id="fgimage" multiple="false" accept="image/*" onchange="fgimageupload()">
+<br>
+Background:<input type="file" name="file" id="bgimage" multiple="false" accept="image/*" onchange="bgimageupload()">
+<br>
+<input type="button" value="Create Composite" id="composite" onclick="greenScreen();green()"> 
+<input type="button" value="Clear Canvases" id="clear" onclick="clearCanvas()">
+
+</body>
+</html>

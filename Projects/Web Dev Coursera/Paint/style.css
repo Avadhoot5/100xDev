@@ -1,0 +1,14 @@
+input {
+    margin:10px 10px 10px 5px;
+}
+canvas {
+    margin: auto;
+    border: 1px solid gray;
+}
+div{
+    font-size: 30px;
+    display:inline-block;
+}
+d1 {
+    border: 3px solid black;
+}

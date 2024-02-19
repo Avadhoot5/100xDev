@@ -1,0 +1,20 @@
+.new{
+    font: Roboto;
+    color: red;
+    background-color: black;
+  }
+  
+  .table{
+    border: dotted grey;
+    width: 50%
+  }
+  
+  h1{
+    text-align: center;
+    color: #3F3FBF;
+  }
+  
+  li{
+    margin: 5px;
+    padding:5px;
+  }
